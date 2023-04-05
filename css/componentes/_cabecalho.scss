@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.cabecalho-principal {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    width: 100%;
+    height: 150px;
+    box-shadow: 0 8px 10px -12px black;
+    .logo{
+        width: 120px;
+        padding: 2em;
+    }
+    .menu {
+        display: flex;
+        .menu__links {
+            color: black;
+            text-decoration: none;
+            font-size: 1em;
+            margin-left: 1em;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+}
