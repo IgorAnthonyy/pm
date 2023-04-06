@@ -95,6 +95,19 @@
     width: 360px;
   }
 }
+@media screen and (max-width: 778px) {
+  .projetos .card {
+    width: 310px;
+    padding-right: 0;
+    padding-bottom: 80px;
+  }
+  .projetos .card .card__img {
+    width: 310px;
+  }
+  .projetos .cards {
+    flex-direction: column;
+  }
+}
 .footer {
   margin: 0 auto;
   margin-top: 100px;

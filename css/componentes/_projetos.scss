@@ -64,3 +64,19 @@
             }
     }
 }
+@media  screen and (max-width: 778px) {
+    .projetos {
+        .card {
+            width: 310px;
+            padding-right: 0;
+            padding-bottom: 80px;
+            .card__img {
+                width: 310px;
+            }
+        }
+        
+        .cards {
+            flex-direction: column;
+        }
+    }
+}
