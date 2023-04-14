@@ -287,12 +287,12 @@
   .banner .slider {
     margin: 0 auto;
     width: 300px;
-    height: 150px;
+    height: 200px;
     overflow: hidden;
   }
   .banner .slider .slides {
     width: 400%;
-    height: 150px;
+    height: 200px;
     display: flex;
   }
   .banner .slider .slides .slide {
@@ -307,8 +307,14 @@
     width: 300px;
     margin-top: -20px;
   }
+  .banner .slider .manual-navigation .manual-btn {
+    padding: 4px;
+  }
   .banner .slider .navigation-auto {
     width: 300px;
-    margin-top: 130px;
+    margin-top: 180px;
+  }
+  .banner .slider .navigation-auto div {
+    padding: 4px;
   }
 }/*# sourceMappingURL=style.css.map */

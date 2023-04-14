@@ -123,11 +123,11 @@
         .slider{
             margin: 0 auto;
             width: 300px;
-            height: 150px;
+            height: 200px;
             overflow: hidden;
             .slides {
                 width: 400%;
-                height: 150px;
+                height: 200px;
                 display: flex;
                 .slide {
                     width: 25%;
@@ -142,11 +142,18 @@
                 .manual-navigation {
                     width: 300px;
                     margin-top: -20px;
+                    .manual-btn {
+                        padding: 4px;
+                    }
                 }
                 .navigation-auto {
                     width: 300px;
-                    margin-top: 130px;
+                    margin-top: 180px;
                 }
+                .navigation-auto div{
+                    padding: 4px;
+                }
+                
     }
     }
 }
