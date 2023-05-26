@@ -1,30 +1,80 @@
 * {
     padding: 0;
     margin: 0;
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.cabecalho-principal {
-    background-color: white;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: fixed;
-    z-index: 100;
+.cabecalho {
     top: 0;
+    position: fixed;
+    background-color: white;
     width: 100%;
-    height: 150px;
-    box-shadow: 0 8px 10px -12px black;
-    .logo{
-        width: 120px;
-        padding: 2em;
-    }
-    .menu {
+    z-index: 100;
+    font-weight: 100;
+    .nav-bar  {
         display: flex;
-        .menu__links {
-            color: black;
-            text-decoration: none;
-            font-size: 1em;
-            margin-left: 1.2em;
-            font-family: Arial, Helvetica, sans-serif;
+        justify-content: space-between;
+        padding: 0.5rem 6rem;
+        align-items: center;
+        .logo img {
+            width: 100px;
+        }
+        .nav-item {
+            display: inline-block;
+            margin: 0 15px;
+            .navbar__link{
+                color: black;
+                text-decoration: none;
+                font-size: 18px;
+                transition: 1s;
+            }
+        }
+        .mobile-menu-icon {
+            display: none;
+        }
+        .mobile-menu {
+            display: none;
+        }
+    }
+    
+}
+@media screen and (max-width: 1170px) {
+    .cabecalho {
+        .nav-bar{
+            padding: 1rem 4rem;
+            .nav-item {
+                display: none;
+            }
+            .mobile-menu-icon {
+                display: block;
+                button{
+                    background-color: transparent;
+                    border: none;
+                    cursor: pointer;
+                    .bx {
+                        color: black;
+                        font-size: 40px;
+                    }
+                }
+            }
+            .mobile-menu {
+                position: absolute;
+                right: 0;
+                top: 100px;
+            }
+            .mobile-menu ul{
+                display: flex;
+                flex-direction: column;
+                background-color: white;
+                padding: 20px;
+                .nav-item {
+                    display: block;
+                    padding-top: 2rem;
+                }
+            }
+            .open {
+                display: block;
+            }
         }
     }
 }

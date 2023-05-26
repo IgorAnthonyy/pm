@@ -5,15 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./img/logopm.jpg">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./css/style.css">
     <title>PM GESTÃO DE PROJETOS</title>
 </head>
 <body>
-    <header class="cabecalho-principal">
-        <img src="./img/logopm2.jpg" alt="Logo PM" class="logo">
-        <nav class="menu">
-            <a href="" class="menu__links">Página inicial</a>
-            <a href="" class="menu__links">Nossos trabalhos</a>
+    <header class="cabecalho">
+        <nav class="nav-bar">
+            <div class="logo"><img src="./img/logopm2.jpg" alt=""></div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="./inicial.html" class="navbar__link" >Página inicial</a></li>
+                    <li class="nav-item"><a href="#formacao" class="navbar__link">Nossos serviços</a></li>
+                </ul>
+            </div>
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><i class='bx bx-menu'></i></button>
+            </div>
+            <div class="mobile-menu">
+                <ul>
+                    <li class="nav-item"><a href="./inicial.html" class="navbar__link" >Página inicial</a></li>
+                    <li class="nav-item"><a href="./index.html" class="navbar__link">Nossos serviços</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
     <section class="banner">
@@ -50,7 +64,7 @@
             </div>
         </div>
     </section>
-    <section class="projetos">
+    <section class="projetos" id="nossos-servicos">
         <div class="titulos">
             <h4 class="titulo-gestao">Gestão de projetos</h4>
             <h2 class="titulo-servicos">Nossos Serviços</h4>
@@ -95,5 +109,6 @@
         </div>
     </footer>
     <script src="./js/script.js"></script>
+    <script src="./js/menu-humburg.js"></script>
 </body>
 </html>
