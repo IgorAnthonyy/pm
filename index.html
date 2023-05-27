@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./img/logopm.jpg">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="./img/logopm.jpg">
     <title>PM GESTÃO DE PROJETOS</title>
 </head>
 <body>
     <header class="cabecalho">
         <nav class="nav-bar">
-            <div class="logo"><img src="./img/logopm2.jpg" alt=""></div>
+            <div class="logo"><a href="index.html"><img src="./img/logopm2.jpg" alt=""></a></div>
             <div class="nav-list">
                 <ul>
-                    <li class="nav-item"><a href="./inicial.html" class="navbar__link" >Página inicial</a></li>
-                    <li class="nav-item"><a href="#formacao" class="navbar__link">Nossos serviços</a></li>
+                    <li class="nav-item"><a href="./index.html" class="navbar__link" >Página inicial</a></li>
+                    <li class="nav-item"><a href="./servicos.html" class="navbar__link">Nossos serviços</a></li>
                 </ul>
             </div>
             <div class="mobile-menu-icon">
@@ -24,91 +24,37 @@
             </div>
             <div class="mobile-menu">
                 <ul>
-                    <li class="nav-item"><a href="./inicial.html" class="navbar__link" >Página inicial</a></li>
-                    <li class="nav-item"><a href="./index.html" class="navbar__link">Nossos serviços</a></li>
+                    <li class="nav-item"><a href="./index.html" class="navbar__link" >Página inicial</a></li>
+                    <li class="nav-item"><a href="./servicos.html" class="navbar__link">Nossos serviços</a></li>
                 </ul>
             </div>
         </nav>
     </header>
-    <section class="banner">
-        <div class="slider">
-            <div class="slides">
-                <input type="radio" name="radio-btn" id="radio1">
-                <input type="radio" name="radio-btn" id="radio2">
-                <input type="radio" name="radio-btn" id="radio3">
-                <input type="radio" name="radio-btn" id="radio4">
-                <div class="div slide first">
-                    <img src="./img/teste.jpg" alt="">
-                </div>
-                <div class="div slide">
-                    <img src="./img/teste.jpg" alt="">
-                </div>
-                <div class="div slide">
-                    <img src="./img/teste.jpg" alt="">
-                </div>
-                <div class="div slide">
-                    <img src="./img/teste.jpg" alt="">
-                </div>
-                <div class="navigation-auto">
-                    <div class="auto-btn1"></div>
-                    <div class="auto-btn2"></div>
-                    <div class="auto-btn3"></div>
-                    <div class="auto-btn4"></div>
-                </div>
+    <main class="principal">
+        <h1>Otimização inteligente de <strong>processos para sua empresa</strong></h1>
+        <p>Nós criamos junto com você um planejamento estratégico, definimos os processos e pessoas ideais para organizar e expandir seu negócio.
+
+            Através do: Diagnóstico, mapeamento dos processos, mapeamento de recursos, criação de retórica estratégico, seleção de metodologias e ferramentas, implementação, acompanhamento e melhorias.</p>
+        <a href="./servicos.html">Conheça nossos projetos</a>
+        </main>
+        <footer class="footer">
+            <div class="footer-posi">
+                <div class="redes">
+                    <img src="./img/logopm.jpg" alt="Logo PM" class="logo-footer">
+                    <ul class="redes-sociais">
+                       <li><a href="" class="redes__links"> <img src="./img/facebook.png" alt="" class="redes__img"> </a></li>
+                       <li><a href="" class="redes__links"> <img src="./img/instagram.png" alt="" class="redes__img"> </a></li>
+                       <li><a href="" class="redes__links"> <img src="./img/in.png" alt="" class="redes__img"> </a></li>
+                       <li><a href="" class="redes__links"> <img src="./img/twitter.png" alt="" class="redes__img"> </a></li>
+                    </ul>
+               </div>
+               <div class="footer-desc">
+                   <p class="desc__texto">Rua Modelo 355, São Francisco, Califórnia, CEP 94110</p>
+                   <p class="desc__texto">+1 888 123 4567</p>
+                   <a href="" class="desc__email">monique.jesus.maciel@gmail.com</a>
+               </div>
             </div>
-            <div class="manual-navigation">
-                <label for="radio1" class="manual-btn"></label>
-                <label for="radio2" class="manual-btn"></label>
-                <label for="radio3" class="manual-btn"></label>
-                <label for="radio4" class="manual-btn"></label>
-            </div>
-        </div>
-    </section>
-    <section class="projetos" id="nossos-servicos">
-        <div class="titulos">
-            <h4 class="titulo-gestao">Gestão de projetos</h4>
-            <h2 class="titulo-servicos">Nossos Serviços</h4>
-        </div>
-        <div class="cards">
-            <div class="card">
-                <a href=""><img src="./img/image-5.jpg" alt="" class="card__img"></a>
-                <p class="card__sub">Projetos</p>
-                <h3 class="card__titulo">Elaboração e Implementação de novos Projetos</h3>
-                <p class="card__texto">Identificamos e estudamos o seu projeto, para decidir qual metodologia mais adequada para implantação. Através das metodologias inteligentes: Kanban, Scrum, Lean manufacturing, Six Sigma, KPI, entre outras.</p>
-            </div>
-            <div class="card">
-                <a href=""><img src="./img/image-6.jpg" alt="" class="card__img"></a>
-                <p class="card__sub">Projetos</p>
-                <h3 class="card__titulo">Otimização Inteligente de Projetos já existentes</h3>
-                <p class="card__texto">Identificamos o problema, coletamos informações relevantes, desenvolvemos alternativas, selecionamos a melhor metodologia para a otimização dos seus processos, implementamos, e acompanhamos o seu Projeto.</p>
-            </div>
-            <div class="card card3">
-                <a href=""><img src="./img/image-7.jpg" alt="" class="card__img"></a>
-                <p class="card__sub">Projetos</p>
-                <h3 class="card__titulo">Gestão de Projetos da sua empresa e ou setor</h3>
-                <p class="card__texto">Realizamos a Gestão de um ou mais projetos da sua empresa, desde o planejamento, implementação, controle e melhorias.</p>
-            </div>
-        </div>
-    </section>
-    <footer class="footer">
-        <div class="footer-posi">
-            <div class="redes">
-                <img src="./img/logopm.jpg" alt="Logo PM" class="logo-footer">
-                <ul class="redes-sociais">
-                   <li><a href="" class="redes__links"> <img src="./img/facebook.png" alt="" class="redes__img"> </a></li>
-                   <li><a href="" class="redes__links"> <img src="./img/instagram.png" alt="" class="redes__img"> </a></li>
-                   <li><a href="" class="redes__links"> <img src="./img/in.png" alt="" class="redes__img"> </a></li>
-                   <li><a href="" class="redes__links"> <img src="./img/twitter.png" alt="" class="redes__img"> </a></li>
-                </ul>
-           </div>
-           <div class="footer-desc">
-               <p class="desc__texto">Rua Modelo 355, São Francisco, Califórnia, CEP 94110</p>
-               <p class="desc__texto">+1 888 123 4567</p>
-               <a href="" class="desc__email">monique.jesus.maciel@gmail.com</a>
-           </div>
-        </div>
-    </footer>
-    <script src="./js/script.js"></script>
-    <script src="./js/menu-humburg.js"></script>
+        </footer>
+        <script src="./js/menu-humburg.js"></script>
 </body>
 </html>

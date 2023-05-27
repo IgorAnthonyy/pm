@@ -11,7 +11,6 @@
   background-color: white;
   width: 100%;
   z-index: 100;
-  font-weight: 100;
 }
 .cabecalho .nav-bar {
   display: flex;
@@ -29,8 +28,8 @@
 .cabecalho .nav-bar .nav-item .navbar__link {
   color: black;
   text-decoration: none;
-  font-size: 18px;
-  transition: 1s;
+  font-size: 16px;
+  font-weight: lighter;
 }
 .cabecalho .nav-bar .mobile-menu-icon {
   display: none;
